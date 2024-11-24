@@ -149,6 +149,9 @@ def menu():
 - Memanggil fungsi yang sesuai berdasarkan input pengguna (t untuk tambah data, u untuk ubah data, h untuk hapus data, l untuk lihat data, c untuk cari data, k untuk keluar).
 
 9. Blok if __name__ == "__main__"::
+```python
+   if __name__ == "__main__":
+```
 
 - Baris if __name__ == "__main__": digunakan untuk memeriksa apakah file Python tersebut dijalankan langsung atau diimpor sebagai modul.
 
@@ -157,6 +160,9 @@ def menu():
 - Jika file diimpor sebagai modul dalam file lain, blok kode di dalam if tidak akan dieksekusi.
 
 10. Memanggil Fungsi menu():
+```python
+    menu()
+```
 
 - Di dalam blok if, terdapat panggilan untuk fungsi menu().
 
